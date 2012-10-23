@@ -1,0 +1,11 @@
+Package: rworldxtra
+Type: Package
+Title: Country boundaries at high resolution.
+Version: 1.01
+Date: 2012-10-3
+Author: Andy South
+Maintainer: Andy South <southandy@gmail.com>
+Description: High resolution vector country boundaries derived from Natural Earth data, can be plotted in rworldmap.
+License: GPL (>= 2)
+Depends: R (>= 2.10.0), sp
+Suggests: rworldmap
