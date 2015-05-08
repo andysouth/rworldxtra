@@ -2,5 +2,9 @@
 
 language: r
 
+#to avoid travis sudo error
+before_install:
+  - sudo apt-get install libv8-dev
+
 #to skip warning about compression
 warnings_are_errors: false
